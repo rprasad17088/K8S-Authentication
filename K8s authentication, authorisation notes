@@ -7,3 +7,9 @@ The Bearer authentication scheme was originally created as part of OAuth 2.0 in 
 
 https://swagger.io/docs/specification/authentication/bearer-authentication/
 
+JSON Web Token (JWT)
+
+Service accounts authenticate with the username system:serviceaccount:(NAMESPACE):(SERVICEACCOUNT), and are assigned to the groups system:serviceaccounts and system:serviceaccounts:(NAMESPACE).
+
+WARNING: Because service account tokens are stored in secrets, any user with read access to those secrets can authenticate as the service account. Be cautious when granting permissions to service accounts and read capabilities for secrets.
+
