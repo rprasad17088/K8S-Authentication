@@ -13,3 +13,4 @@ Service accounts authenticate with the username system:serviceaccount:(NAMESPACE
 
 WARNING: Because service account tokens are stored in secrets, any user with read access to those secrets can authenticate as the service account. Be cautious when granting permissions to service accounts and read capabilities for secrets.
 
+https://www.c-sharpcorner.com/article/accesstoken-vs-id-token-vs-refresh-token-what-whywhen/#:~:text=Access%20tokens%20are%20credentials%20used,are%20used%20as%20bearer%20tokens.&text=Access%20token%20must%20never%20be,id%2C%20located%20in%20sub%20claims.
